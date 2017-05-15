@@ -1,0 +1,25 @@
+
+[05-Jun-2016 02:58:40 America/Chicago] PHP Notice:  Undefined index: HTTP_X_REQUESTED_WITH in /home/debswebs/public_html/GrandLakesTennis/contact_process.php on line 108
+[05-Jun-2016 02:58:41 America/Chicago] PHP Notice:  A session had already been started - ignoring session_start() in /home/debswebs/public_html/GrandLakesTennis/contact_process.php on line 110
+[05-Jun-2016 07:58:42 UTC] PHP Notice:  Undefined index: contact in /home/debswebs/public_html/GrandLakesTennis/contact.php on line 195
+[05-Jun-2016 07:58:42 UTC] PHP Notice:  Undefined index: contact in /home/debswebs/public_html/GrandLakesTennis/contact.php on line 198
+[18-Jun-2016 16:16:07 America/Chicago] PHP Notice:  Undefined index: HTTP_X_REQUESTED_WITH in /home/debswebs/public_html/GrandLakesTennis/contact_process.php on line 108
+[18-Jun-2016 16:16:07 America/Chicago] PHP Notice:  A session had already been started - ignoring session_start() in /home/debswebs/public_html/GrandLakesTennis/contact_process.php on line 110
+[18-Jun-2016 21:16:07 UTC] PHP Notice:  Undefined index: contact in /home/debswebs/public_html/GrandLakesTennis/contact.php on line 195
+[18-Jun-2016 21:16:07 UTC] PHP Notice:  Undefined index: contact in /home/debswebs/public_html/GrandLakesTennis/contact.php on line 198
+[01-Jul-2016 05:08:05 America/Chicago] PHP Notice:  Undefined index: HTTP_X_REQUESTED_WITH in /home/debswebs/public_html/GrandLakesTennis/contact_process.php on line 108
+[01-Jul-2016 05:08:05 America/Chicago] PHP Notice:  A session had already been started - ignoring session_start() in /home/debswebs/public_html/GrandLakesTennis/contact_process.php on line 110
+[01-Jul-2016 10:08:06 UTC] PHP Notice:  Undefined index: contact in /home/debswebs/public_html/GrandLakesTennis/contact.php on line 195
+[01-Jul-2016 10:08:06 UTC] PHP Notice:  Undefined index: contact in /home/debswebs/public_html/GrandLakesTennis/contact.php on line 198
+[11-Jul-2016 02:36:15 America/Chicago] PHP Notice:  Undefined index: HTTP_X_REQUESTED_WITH in /home/debswebs/public_html/GrandLakesTennis/contact_process.php on line 108
+[11-Jul-2016 02:36:15 America/Chicago] PHP Notice:  A session had already been started - ignoring session_start() in /home/debswebs/public_html/GrandLakesTennis/contact_process.php on line 110
+[11-Jul-2016 07:36:17 UTC] PHP Notice:  Undefined index: contact in /home/debswebs/public_html/GrandLakesTennis/contact.php on line 195
+[11-Jul-2016 07:36:17 UTC] PHP Notice:  Undefined index: contact in /home/debswebs/public_html/GrandLakesTennis/contact.php on line 198
+[15-Jul-2016 18:48:17 America/Chicago] PHP Notice:  Undefined index: HTTP_X_REQUESTED_WITH in /home/debswebs/public_html/GrandLakesTennis/contact_process.php on line 108
+[15-Jul-2016 18:48:17 America/Chicago] PHP Notice:  A session had already been started - ignoring session_start() in /home/debswebs/public_html/GrandLakesTennis/contact_process.php on line 110
+[15-Jul-2016 23:48:18 UTC] PHP Notice:  Undefined index: contact in /home/debswebs/public_html/GrandLakesTennis/contact.php on line 195
+[15-Jul-2016 23:48:18 UTC] PHP Notice:  Undefined index: contact in /home/debswebs/public_html/GrandLakesTennis/contact.php on line 198
+[23-Jul-2016 06:57:15 America/Chicago] PHP Notice:  Undefined index: HTTP_X_REQUESTED_WITH in /home/debswebs/public_html/GrandLakesTennis/contact_process.php on line 108
+[23-Jul-2016 06:57:15 America/Chicago] PHP Notice:  A session had already been started - ignoring session_start() in /home/debswebs/public_html/GrandLakesTennis/contact_process.php on line 110
+[23-Jul-2016 11:57:16 UTC] PHP Notice:  Undefined index: contact in /home/debswebs/public_html/GrandLakesTennis/contact.php on line 195
+[23-Jul-2016 11:57:16 UTC] PHP Notice:  Undefined index: contact in /home/debswebs/public_html/GrandLakesTennis/contact.php on line 198

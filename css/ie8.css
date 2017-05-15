@@ -1,0 +1,20 @@
+.flex-direction-nav .flex-next{ background:#000 url(../images/backgrounds/arrow-next.png) no-repeat 0 2px; }
+.flex-direction-nav .flex-prev { background:#000 url(../images/backgrounds/arrow-previous.png) no-repeat 0 2px; }
+.pf_image_caption { background: url(../images/backgrounds/caption-bg.png) 0 0; }
+.button, a.button, input.button, button.grey, .dropcap.grey, .myfancy-box h3.grey-box { 
+border: 1px solid #575757; }
+.top-menu {	font-size: 1px; }
+.top-menu>ul>li { margin:1px -1px 0 -1px;}
+
+.team_member h5 sub { font-size: 13px; }
+.team_member ul li,.team_member ul li img { display: inline-block; }
+.team_member ul li a { margin:0 2px 0 0; }
+ul.our_awards li sub,ul.our_awards li sub a { font-size: 13px; }
+
+#content .flexslider ul.slides > li .tm_hover .social-icons ul li { width:20px; height:20px; }
+
+
+
+
+
+

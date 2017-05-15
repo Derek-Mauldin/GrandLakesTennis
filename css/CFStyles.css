@@ -1,0 +1,177 @@
+#contact-form {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	background-color:#a6c5d0;
+	width:43%;
+	padding:20px;
+	border: 6px solid #4E7986;
+	position:relative;
+	float: right;
+	margin-top: -515px;
+	height: 400px;
+}
+
+
+#contact-form input, 
+#contact-form select, 
+#contact-form textarea {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size:13px;
+	margin-bottom:12px;
+	text-align: left; 
+	width: 98%;
+	border: 1px solid #89afbc;
+	margin-bottom:20px;
+	padding:4px;
+
+}
+#contact-form label {
+	font-size:15px;
+	margin-bottom:8px;
+}
+
+
+#contact-form input:focus, 
+#contact-form select:focus, 
+#contact-form textarea:focus {
+	border: 1px solid #5e818e;
+	background-color: #eaf2f5;
+}
+
+#contact-form textarea {
+	height:120px;
+	resize: none;
+}
+
+#contact-form label {
+	display:block;
+}
+
+#contact-form .required {
+	font-weight:bold;
+	color:#F00;	
+}
+
+#contact-form #submit-button {
+	width: 100px;
+	color:#FFF;
+	border:none;
+	display:block;
+	float:right;
+	text-align: center;
+	margin-bottom:0px;
+	margin-right:6px;
+	background-color:#4E7986;
+}
+
+#contact-form #submit-button:hover {
+	background-color: #74BCD4;
+}
+
+#contact-form #submit-button:active {
+	position:relative;
+	top:1px;
+}
+
+#contact-form #loading {
+	width:32px;
+	height:32px;
+	background-image:url(../images/loading.gif);
+	display:block;
+	position:absolute;
+	right:130px;
+	bottom:16px;
+	display:none;
+}
+
+#errors {
+	border:solid 1px #E58E8E;
+	padding:10px;
+	margin:25px 0px;
+	display:block;
+	width:87%;
+	background:#FFE6E6 url(../images/cancel_48.png) no-repeat 370px center;
+	font-size: 0.75em;
+	display:none;
+	position: absolute;
+	z-index: 1000;
+}
+
+#errors li {
+	padding:2px;
+	list-style:none;	
+}
+
+#errors li:before {
+	content: ' - ';	
+}
+
+#errors #info {
+	font-weight:bold;
+}
+
+#errors #info:before {
+	content: '';	
+}
+
+#success {
+	border:solid 1px #83D186;
+	padding:25px 10px;
+	margin:25px 0px;
+	display:block;
+	width:87%;
+	background:#D3EDD3 url(../images/accepted_48.png) no-repeat 370px center;
+	font-weight:bold;
+	font-size: 0.75em;
+	display:none;
+	position: absolute;
+	z-index: 1000;
+}
+
+#errors.visible, #success.visible {
+	display:block;	
+}
+
+#req-field-desc {
+	font-style:italic;
+}
+
+/* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */
+input:required, textarea:required {
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	-o-box-shadow:none;
+	box-shadow:none;
+}
+
+/* Normalize placeholder styles */
+
+/* chrome, safari */
+::-webkit-input-placeholder {
+	color:#CCC;
+	font-style:italic;
+}
+
+/* mozilla */
+input:-moz-placeholder, textarea:-moz-placeholder {
+	color:#CCC;
+	font-style:italic;
+}
+
+/* ie (faux placeholder) */
+input.placeholder-text, textarea.placeholder-text  { 
+	color:#CCC;
+	font-style:italic;
+}
+
+
+
+
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.hidden { display: none; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }

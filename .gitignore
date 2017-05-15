@@ -1,1 +1,10 @@
-db.php
+LoginSystem/db.php
+.idea/GrandLakesTennis.iml
+.idea/copyright/
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+LoginSystem/php/partials/
+Ds_Store
+

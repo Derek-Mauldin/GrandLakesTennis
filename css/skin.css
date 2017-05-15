@@ -1,0 +1,64 @@
+/* Color */
+.skin_color,
+html #content ul.tabs li.tab-active a,
+.post_bottom_bg span.post_button a,
+#content .pf_box h3 a:hover,
+#content .flexslider .slides > li .rp_details h3 a:hover,
+.caption.med_white,.home_readmore a,
+#content .comment-text cite a:hover,
+#content .blog_post h3 a:hover,#sidebar ul li a:hover,
+#footer .tweet .tweet_list li a:hover, #footer  .query .tweet_list li a:hover,
+.services_icon_small:hover h4,
+.services_icon_medium:hover h4,
+.services_icon_large:hover h4,
+#content .home_services2:hover h4,
+#content .rc_posts h4 a:hover,#content .rc_posts ul li:hover h4 a,
+#content .content_tweet > .query .tweet_list li a:hover
+{ color:#6b63a4;  }
+
+
+/* Color with Background Image */
+
+.page-title { background:#6b63a4 url(../images/backgrounds/pattern2.png); }
+#header_slider, #header_image { 
+	background:-webkit-linear-gradient(#4f4884, #6b63a4);
+	background: -o-linear-gradient(#4f4884, #6b63a4);
+	background: -moz-linear-gradient(#4f4884, #6b63a4);
+}
+
+/* Background Color */
+
+.post_format_icon,.pf_gallery_nav a.next:hover,.flex-direction-nav a:hover,
+.pf_gallery_nav a.prev:hover,.jp-play-bar,.jp-volume-bar-value,.tm_hover { 
+	background-color:#6b63a4; }
+
+/* Border Color */
+
+.pf_gallery_pagination a:hover,.flex-control-nav li a.flex-active,
+.flex-control-nav li a:hover,#header_slider_fullwidth,
+.portfolio .pf_box:hover a img { 
+	border-color:#6b63a4; }
+
+.top-menu>ul>li.active, .top-menu>ul>li:hover { border-top: 1px solid #6b63a4; }
+#footer {  border-top: 4px solid #6b63a4;}
+
+
+/* ===== Mouseover Image Icons ===== */
+
+.zoom-icon  { background:#6b63a4 url(../images/icons/zoom.png) no-repeat 50% 50%;}
+.play-icon  { background:#6b63a4 url(../images/icons/play.png) no-repeat 50% 50%;}
+.doc-icon   { background:#6b63a4 url(../images/icons/doc.png) no-repeat 50% 50%;}	
+
+/* *****************************************************************************
+Other skin colors (chage color value in above style codes to change skin color)
+
+orange 	#e07700
+pink 	#bd5094
+blue 	#0576ab
+teal 	#4196ab
+
+***************************************************************************** */
+
+
+
+

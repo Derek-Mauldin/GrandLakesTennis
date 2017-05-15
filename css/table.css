@@ -1,0 +1,197 @@
+.table {
+    background: none repeat scroll 0 0 #f8f8f8;
+    border: 1px solid #e1e1e1;
+    box-shadow: none;
+    float: left;
+    margin: 10px 13px 0 0;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    z-index: 9;
+    transition-duration: 0.5s;
+    transition-property: border-color, background-image, background-color, box-shadow, opacity, height, width, color, background;
+
+}
+th {
+	background: url("../images/backgrounds/pricing_table_top2.png") no-repeat scroll center bottom rgba(0, 0, 0, .6);
+    color: #fff;
+    font-family: "Trebuchet MS",georgia,arial;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px 5px 20px 5px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.9);
+    border: 1px solid #000000;
+    vertical-align: middle;
+}
+tr:nth-child(odd) { 
+	background-color:#f8f8f8; 
+}
+tr:nth-child(even) { 
+	background-color:#ffffff; 
+}
+
+td {
+	vertical-align:middle;
+	/*border:1px solid #3f7f00;
+	border-width:0px 1px 1px 0px;*/
+	text-align:center;
+	padding:12px;
+	font-size:13px;
+    font-family: "Trebuchet MS",georgia,arial;
+	font-weight:normal;
+	color:#000000;
+}
+tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}
+tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}
+tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+tr:first-child td{
+	background:-o-linear-gradient(bottom, #ced0cd 5%, #aca9a6 100%);	
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ced0cd), color-stop(1, #aca9a6) );
+	background:-moz-linear-gradient( center top, #ced0cd 5%, #aca9a6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ced0cd", endColorstr="#aca9a6");	
+	background: -o-linear-gradient(top,#ced0cd ,#aca9a6);
+	background-color:#ced0cd;
+	border:0px solid #aca9a6;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:17px;
+	font-family:Georgia;
+	font-weight:bold;
+	color:#333333;
+}
+tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #5fbf00 5%, #3f7f00 100%);	
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5fbf00), color-stop(1, #3f7f00) );
+	background:-moz-linear-gradient( center top, #5fbf00 5%, #3f7f00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#5fbf00", endColorstr="#3f7f00");	
+	background: -o-linear-gradient(top,#5fbf00,3f7f00);
+	background-color:#5fbf00;
+}
+tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+.teamName {
+	    font-size: 16px;	
+	    font-weight: bold;
+	    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.9);
+}
+.whltaDoubleShots {
+	background-color: #3dc5ee; /*blue*/
+	background-color: #6B63A4; /*dark purple*/
+	color: #ffffff;
+	line-height: 25px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.whltaGetAGrip {
+	background-color: #e34c8a; /*pink*/
+	color: #ffffff;
+	line-height: 25px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.whltaVolleyGirls {
+	background-color: #3fa5a8; /*#3D625Fteal*/
+	color: #ffffff;
+	line-height: 25px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.whltaTwistedSisters {
+	background-color: #f26a6a; /*persimmon*/
+	color: #ffffff;
+	line-height: 25px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.whltaDoubleTheFun {
+	background-color: #a3c92d; /*7fbcb7charlotte* - green*/
+	color: #ffffff;
+	line-height: 25px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.whltaSmartAces {
+	background-color: #0b8cb7; /* dark aqua */
+	color: #ffffff;
+	line-height: 25px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.hltaGotTennis {
+	background-color: #739931; /*spring green*/
+	color: #ffffff;
+	line-height: 25px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.hltaCasualSets {
+	background-color: #a9a1e6; /*purple*/
+	color: #ffffff;
+	line-height: 25px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.hltaMoodSwings {
+	background-color: #fd7e23; /*orange*/
+	color: #ffffff;
+	line-height: 25px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.hltaDoubleTrouble {
+	background-color: #3dc5ee; /*blue*/
+	color: #ffffff;
+	line-height: 25px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+
+}
+.ustaGoGetters {
+	background-color: #B173C1; /*lavendar*/
+	color: #ffffff;
+	line-height: 25px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+
+}
+.ustaAlleyCats {
+	background-color: #ffc100; /*schoolbus yellow*/
+	color: #ffffff;
+	line-height: 25px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.katLadies40SummerWarmUp {
+	background-color: #800080; /*plum*/
+	color: #ffffff;
+	line-height: 25px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.invisTable {
+	display: none;
+}

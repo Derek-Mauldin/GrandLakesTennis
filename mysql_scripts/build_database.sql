@@ -1,0 +1,22 @@
+USE debswebs_GLTennis;
+CREATE TABLE IF NOT EXISTS COURT_RESERVATIONS(
+	ResID VARCHAR(7) NOT NULL UNIQUE, PRIMARY KEY(ResID),
+	TeamName VARCHAR(63) NOT NULL,
+	# date format: 'YYYY-MM-DD'
+	ResDate DATE NOT NULL,
+	# time format: (H)H:MM -- see combo box
+	ResTime VARCHAR(31) NOT NULL,
+	Courts VARCHAR(127) NOT NULL,
+	ResType VARCHAR(63) NOT NULL
+);
+CREATE TABLE IF NOT EXISTS RESERVATION_ARCHIVES
+(
+	ResID VARCHAR(7) NOT NULL,
+	TeamName VARCHAR(63) NOT NULL,
+	# date format: 'YYYY-MM-DD'
+	ResDate DATE NOT NULL,
+	# time format: (H)H:MM -- see combo box
+	ResTime VARCHAR(31)  NOT NULL,
+	Courts VARCHAR(127) NOT NULL,
+	ResType VARCHAR(63) NOT NULL
+);

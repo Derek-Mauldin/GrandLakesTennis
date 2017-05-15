@@ -1,0 +1,17 @@
+/* Theme's shortcodes CSS styles*/
+@import 'shortcodes.css';
+
+/* Home page slider CSS styles*/
+@import 'sliders.css';
+
+/* PrettyPhoto lightbox CSS styles*/
+@import 'prettyphoto.css';
+
+/*Icon font CSS styles*/
+@import '../fonts/font-awesome.css';
+
+/* Theme skin CSS styles*/
+@import 'skin.css';
+
+/* Responsive CSS styles*/
+@import 'responsive.css';
